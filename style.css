@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 0 3rem;
+}
+
+#map {
+    height: 60vh;
+    width: 75%;
+    padding: 0 3rem;
+    margin: auto;
+}
+
+.gm-style-iw-d {
+ color: black;
+ font-family: 'Press Start 2P', cursive;
+ font-size: .1rem;
+}
+
+.logo {
+    width: 35% !important;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+}
+
+.music {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.credit {
+    font-family: 'VT323', monospace;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+div.credit {
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 3rem;
+    }
+  }
